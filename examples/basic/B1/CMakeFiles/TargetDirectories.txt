@@ -1,0 +1,2 @@
+/home/aresch/programs/geant4.10.01/examples/basic/B1/CMakeFiles/B1.dir
+/home/aresch/programs/geant4.10.01/examples/basic/B1/CMakeFiles/exampleB1.dir

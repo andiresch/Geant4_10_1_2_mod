@@ -1,0 +1,38 @@
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:26:// $Id: G4HadronPhysicsQGSP_BIC_HP.cc 83699 2014-09-10 07:18:25Z gcosmo $
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:30:// ClassName:   G4HadronPhysicsQGSP_BIC_HP
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:34:// Based on G4HadronPhysicsQGSP_BIC_HP
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:45:#include "G4HadronPhysicsQGSP_BIC_HP.hh"
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:69:G4_DECLARE_PHYSCONSTR_FACTORY(G4HadronPhysicsQGSP_BIC_HP);
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:71:G4ThreadLocal G4HadronPhysicsQGSP_BIC_HP::ThreadPrivate*
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:72:G4HadronPhysicsQGSP_BIC_HP::tpdata = 0;
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:74:G4HadronPhysicsQGSP_BIC_HP::G4HadronPhysicsQGSP_BIC_HP(G4int)
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:75:    :  G4VPhysicsConstructor("hInelastic QGSP_BIC_HP")
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:96:G4HadronPhysicsQGSP_BIC_HP::G4HadronPhysicsQGSP_BIC_HP(const G4String& name, G4bool /* quasiElastic */)
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:118:void G4HadronPhysicsQGSP_BIC_HP::CreateModels()
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:162:G4HadronPhysicsQGSP_BIC_HP::~G4HadronPhysicsQGSP_BIC_HP() 
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:185:void G4HadronPhysicsQGSP_BIC_HP::ConstructParticle()
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_HP.cc:201:void G4HadronPhysicsQGSP_BIC_HP::ConstructProcess()
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BIC_AllHP.cc:73:    :  G4VPhysicsConstructor("hInelastic QGSP_BIC_HP")
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:26:// $Id: G4HadronPhysicsQGSP_BIC_HP.hh 73040 2013-08-15 09:36:57Z gcosmo $
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:30:// ClassName:   G4HadronPhysicsQGSP_BIC_HP
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:44:#ifndef G4HadronPhysicsQGSP_BIC_HP_h
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:45:#define G4HadronPhysicsQGSP_BIC_HP_h 1
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:73:class G4HadronPhysicsQGSP_BIC_HP : public G4VPhysicsConstructor
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:76:    G4HadronPhysicsQGSP_BIC_HP(G4int verbose =1);
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:77:    G4HadronPhysicsQGSP_BIC_HP(const G4String& name, G4bool quasiElastic=true);
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BIC_HP.hh:78:    virtual ~G4HadronPhysicsQGSP_BIC_HP();
+physics_lists/lists/src/G4PhysListFactory.cc:54:#include "QGSP_BIC_HP.hh"
+physics_lists/lists/src/G4PhysListFactory.cc:78:    "QGSP_BERT","QGSP_BERT_HP","QGSP_BIC","QGSP_BIC_HP","QMD_BIC",
+physics_lists/lists/src/G4PhysListFactory.cc:157:  else if(had_name == "QGSP_BIC_HP")    {p = new QGSP_BIC_HP(verbose);}
+physics_lists/lists/src/G4RegisterPhysLists.cc:73:#include "QGSP_BIC_HP.hh"
+physics_lists/lists/src/G4RegisterPhysLists.cc:74:G4_DECLARE_PHYSLIST_FACTORY(QGSP_BIC_HP);
+physics_lists/lists/include/QGSP_BIC_AllHP.hh:32:// based on QGSP_BIC_HP
+physics_lists/lists/include/QGSP_BIC_HP.hh:26:// $Id: QGSP_BIC_HP.hh 66892 2013-01-17 10:57:59Z gunter $
+physics_lists/lists/include/QGSP_BIC_HP.hh:30:// ClassName:   QGSP_BIC_HP
+physics_lists/lists/include/QGSP_BIC_HP.hh:39:#ifndef TQGSP_BIC_HP_h
+physics_lists/lists/include/QGSP_BIC_HP.hh:40:#define TQGSP_BIC_HP_h 1
+physics_lists/lists/include/QGSP_BIC_HP.hh:49:class TQGSP_BIC_HP: public T
+physics_lists/lists/include/QGSP_BIC_HP.hh:52:  TQGSP_BIC_HP(G4int ver = 1);
+physics_lists/lists/include/QGSP_BIC_HP.hh:53:  virtual ~TQGSP_BIC_HP();
+physics_lists/lists/include/QGSP_BIC_HP.hh:62:#include "QGSP_BIC_HP.icc"
+physics_lists/lists/include/QGSP_BIC_HP.hh:63:typedef TQGSP_BIC_HP<G4VModularPhysicsList> QGSP_BIC_HP;

@@ -1,0 +1,35 @@
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:26:// $Id: G4HadronPhysicsQGSP_BERT_HP.cc 83699 2014-09-10 07:18:25Z gcosmo $
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:30:// ClassName:   G4HadronPhysicsQGSP_BERT_HP
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:46:#include "G4HadronPhysicsQGSP_BERT_HP.hh"
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:71:G4_DECLARE_PHYSCONSTR_FACTORY(G4HadronPhysicsQGSP_BERT_HP);
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:73:G4ThreadLocal G4HadronPhysicsQGSP_BERT_HP::ThreadPrivate* 
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:74:G4HadronPhysicsQGSP_BERT_HP::tpdata = 0;
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:76:G4HadronPhysicsQGSP_BERT_HP::G4HadronPhysicsQGSP_BERT_HP(G4int)
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:77:    :  G4VPhysicsConstructor("hInelastic QGSP_BERT_HP")
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:98:G4HadronPhysicsQGSP_BERT_HP::G4HadronPhysicsQGSP_BERT_HP(const G4String& name, G4bool /*quasiElastic */ )
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:120:void G4HadronPhysicsQGSP_BERT_HP::CreateModels()
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:168:G4HadronPhysicsQGSP_BERT_HP::~G4HadronPhysicsQGSP_BERT_HP() 
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:192:void G4HadronPhysicsQGSP_BERT_HP::ConstructParticle()
+physics_lists/constructors/hadron_inelastic/src/G4HadronPhysicsQGSP_BERT_HP.cc:208:void G4HadronPhysicsQGSP_BERT_HP::ConstructProcess()
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:26:// $Id: G4HadronPhysicsQGSP_BERT_HP.hh 73040 2013-08-15 09:36:57Z gcosmo $
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:30:// ClassName:   G4HadronPhysicsQGSP_BERT_HP
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:42:#ifndef G4HadronPhysicsQGSP_BERT_HP_h
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:43:#define G4HadronPhysicsQGSP_BERT_HP_h 1
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:71:class G4HadronPhysicsQGSP_BERT_HP : public G4VPhysicsConstructor
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:74:    G4HadronPhysicsQGSP_BERT_HP(G4int verbose =1);
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:75:    G4HadronPhysicsQGSP_BERT_HP(const G4String& name, G4bool quasiElastic=true);
+physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsQGSP_BERT_HP.hh:76:    virtual ~G4HadronPhysicsQGSP_BERT_HP();
+physics_lists/lists/src/G4PhysListFactory.cc:52:#include "QGSP_BERT_HP.hh"
+physics_lists/lists/src/G4PhysListFactory.cc:78:    "QGSP_BERT","QGSP_BERT_HP","QGSP_BIC","QGSP_BIC_HP","QMD_BIC",
+physics_lists/lists/src/G4PhysListFactory.cc:155:  else if(had_name == "QGSP_BERT_HP")   {p = new QGSP_BERT_HP(verbose);}
+physics_lists/lists/src/G4RegisterPhysLists.cc:67:#include "QGSP_BERT_HP.hh"
+physics_lists/lists/src/G4RegisterPhysLists.cc:68:G4_DECLARE_PHYSLIST_FACTORY(QGSP_BERT_HP);
+physics_lists/lists/include/QGSP_BERT_HP.hh:26:// $Id: QGSP_BERT_HP.hh 66892 2013-01-17 10:57:59Z gunter $
+physics_lists/lists/include/QGSP_BERT_HP.hh:30:// ClassName:   QGSP_BERT_HP
+physics_lists/lists/include/QGSP_BERT_HP.hh:38:#ifndef TQGSP_BERT_HP_h
+physics_lists/lists/include/QGSP_BERT_HP.hh:39:#define TQGSP_BERT_HP_h 1
+physics_lists/lists/include/QGSP_BERT_HP.hh:48:class TQGSP_BERT_HP: public T
+physics_lists/lists/include/QGSP_BERT_HP.hh:51:  TQGSP_BERT_HP(G4int ver=1);
+physics_lists/lists/include/QGSP_BERT_HP.hh:52:  virtual ~TQGSP_BERT_HP();
+physics_lists/lists/include/QGSP_BERT_HP.hh:61:#include "QGSP_BERT_HP.icc"
+physics_lists/lists/include/QGSP_BERT_HP.hh:62:typedef TQGSP_BERT_HP<G4VModularPhysicsList> QGSP_BERT_HP;
